@@ -1,7 +1,7 @@
 <template>
   <div class="h-screen">
     <nav-bar />
-    <router-view class="container shadow-lg p-12 mx-auto h-full"/>
+    <router-view class="container shadow-lg mx-auto h-full"/>
   </div>
 </template>
 

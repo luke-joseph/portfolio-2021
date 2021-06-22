@@ -1,5 +1,5 @@
 <template>
-  <div class="container bg-gray-200 mx-auto">
+  <div class="container mx-auto">
 
     <div id="large-nav" class="hidden sm:flex items-center leading-loose tracking-wide text-base">
 
