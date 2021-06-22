@@ -12,40 +12,40 @@
 
         <div class="flex flex-wrap w-full mx-auto z-50">
 
-          <div class="w-1/4 mt-4 h-full">
+          <div class="w-1/4 mt-3 h-full">
             <p class="bg-white inline text-xl text-gray-300 italic px-4">Backend</p>
           </div>
 
           <div class="w-1/2 grid grid-cols-4">
             <div class="flex flex-col h-full">
               <img src="@/assets/PHP-logo.svg" class="w-20 h-16 mx-auto object-contain" alt="laravel logo">
-              <p class="text-xl text-gray-500">PHP</p>
+              <p class="text-base text-gray-500">PHP</p>
             </div>
 
             <div class="flex flex-col h-full">
-              <img src="@/assets/laravel-logo.png" class="w-16 h-16 mx-auto object-contain" alt="laravel logo">
-              <p class="text-xl text-gray-500">Laravel</p>
+              <img src="@/assets/laravel-logo.png" class="w-16 h-16 mx-auto object-contain bg-white" alt="laravel logo">
+              <p class="text-base text-gray-500">Laravel</p>
             </div>
 
             <div class="flex flex-col h-full">
               <img src="@/assets/vue-logo.png" class="w-16 h-16 mx-auto object-contain" alt="vue logo">
-              <p class="text-xl text-gray-500">Vue</p>
+              <p class="text-base text-gray-500">Vue</p>
             </div>
 
             <div class="flex flex-col h-full">
               <img src="@/assets/tailwindcss-logo.jpg" class="w-16 h-16 mx-auto object-contain" alt="tailwind logo">
-              <p class="text-xl text-gray-500">Tailwind</p>
+              <p class="text-base text-gray-500">Tailwind</p>
             </div>
           </div>
 
 
-          <div class="w-1/4 mt-4 h-full">
+          <div class="w-1/4 mt-3 h-full">
             <p class="bg-white inline text-xl text-gray-300 italic px-4">Frontend</p>
           </div>
 
         </div>
 
-        <div class="w-full h-1 border border-gray-50 bg-gray-100 -mt-16"></div>
+        <div class="w-full h-1 border border-gray-50 bg-gray-100 -mt-16 mb-16"></div>
 
       </div>
 

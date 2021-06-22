@@ -2,17 +2,20 @@
 
   <div class="flex flex-col">
       <index-hero />
+      <about-me />
   </div>
 
 </template>
 
 <script>
 import IndexHero from '@/components/index/IndexHero.vue'
+import AboutMe from '@/components/index/AboutMe.vue'
 
 export default {
   name: 'HomePage',
   components: {
-    IndexHero
+    IndexHero,
+    AboutMe
   }
 }
 </script>
