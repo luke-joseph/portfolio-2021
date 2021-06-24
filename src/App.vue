@@ -3,7 +3,7 @@
 
     <nav-bar />
 
-    <router-view class="container shadow-lg mx-auto"/>
+    <router-view class="container mx-auto"/>
 
     <footer-component />
 

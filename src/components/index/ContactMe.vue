@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col w-full mx-auto mt-16 mb-32">
+  <div class="flex flex-col w-full mx-auto mt-16">
 
     <h2 class="z-50 text-center inline-block bg-white?">
       <span class="bg-white px-4 text-xl">Need Help With Your Website?</span>
@@ -15,9 +15,9 @@
 
           <div class="" v-if="fullyAvailable">
 
-            <h3 class="flex items-center mb-6 font-semibold text-gray-500">
+            <h3 class="flex items-center mb-6 font-semibold text-green-500">
 
-              <span class="h-3 w-3 bg-green-200 rounded-full mr-2"></span>
+              <span class="h-3 w-3 bg-green-500 rounded-full mr-2"></span>
 
               CURRENTLY AVAILABLE FOR PROJECTS
 
