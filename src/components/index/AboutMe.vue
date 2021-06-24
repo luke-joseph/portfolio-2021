@@ -1,5 +1,5 @@
 <template>
-  <div class="flex w-2/3 mx-auto">
+  <div class="flex w-2/3 mx-auto mb-24">
     <div class="w-1/2">
       <h3 class="font-semibold text-gray-500">ABOUT ME</h3>
       <p class="mt-4">

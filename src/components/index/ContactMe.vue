@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col w-full mx-auto mt-16">
+  <div class="flex flex-col w-full mx-auto mt-8">
 
     <h2 class="z-50 text-center inline-block bg-white?">
       <span class="bg-white px-4 text-xl">Need Help With Your Website?</span>
@@ -19,7 +19,7 @@
 
               <span class="h-3 w-3 bg-green-500 rounded-full mr-2"></span>
 
-              CURRENTLY AVAILABLE FOR PROJECTS
+              I'M CURRENTLY AVAILABLE FOR PROJECTS
 
             </h3>
 
@@ -43,7 +43,7 @@
 
               <span class="h-3 w-3 bg-yellow-500 rounded-full mr-2"></span>
 
-              CURRENTLY PARTIALLY AVAILABLE
+              I'M PARTIALLY AVAILABLE FOR PROJECTS
 
             </h3>
 
@@ -61,13 +61,13 @@
 
               <span class="h-3 w-3 bg-red-500 rounded-full mr-2"></span>
 
-              NOT CURRENTLY AVAILABLE
+              I'M NOT CURRENTLY AVAILABLE FOR PROJECTS
 
             </h3>
 
             <p class="w-5/6 mb-3">
 
-              I'm not currently available for any projects at the moment. If you have a very short term limited project feel free to message me and I'll do my best to accomodate you.
+              I'm not currently available for any projects at the moment. If you have a <span class="font-bold italic">very short term limited project</span> feel free to message me and I'll do my best to accomodate you.
 
             </p>
 

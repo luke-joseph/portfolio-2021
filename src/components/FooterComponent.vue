@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <div class="flex w-full container mx-auto">
-      <img src="@/assets/city-sillouhette.png" alt="city illustration" class="w-1/2 sm:w-1/3 mx-auto opacity-25 mt-auto">
+      <img src="@/assets/city-sillouhette.png" alt="city illustration" class="w-1/2 sm:w-1/3 mx-auto opacity-10 mt-auto">
     </div>
     <footer class="h-12 w-full bg-gray-100">
 
