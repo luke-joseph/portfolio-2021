@@ -10,11 +10,9 @@
 
         <swiper @slideChange="slideChanged" :options="swiperOption" style="height: auto" ref="mySwiper">
           <swiper-slide class="slider1"></swiper-slide>
-          <!-- <swiper-slide class="slider2"></swiper-slide>
+          <swiper-slide class="slider2"></swiper-slide>
           <swiper-slide class="slider3"></swiper-slide>
           <swiper-slide class="slider4"></swiper-slide>
-          <swiper-slide class="slider5"></swiper-slide>
-          <swiper-slide class="slider6"></swiper-slide> -->
         </swiper>
 
     </div>
@@ -23,9 +21,63 @@
 
         <h4 class="font-semibold text-gray-300 text-lg mb-2">01</h4>
 
-        <h3 class="font-bold text-gray-600 mb-1 text-base">TRACKWIRE.IO</h3>
+        <h3 class="font-bold text-gray-600 mb-1 text-base">TRACKWIRE.IO - SaaS WebApp</h3>
 
         <p>Founder / Full Stack Developer</p>
+
+        <p class="mt-4">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+
+        <a href="#">
+          <button type="button" class="border border-gray-600 px-6 py-2 mt-6 rounded">WEBSITE</button>
+        </a>
+
+      </div>
+
+      <div v-if="currentSlide === 1" class="flex flex-col md:w-1/2 w-5/6 w-full slide-info-height">
+
+        <h4 class="font-semibold text-gray-300 text-lg mb-2">02</h4>
+
+        <h3 class="font-bold text-gray-600 mb-1 text-base">SATELLITES</h3>
+
+        <p>Full Stack Developer</p>
+
+        <p class="mt-4">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+
+        <a href="#">
+          <button type="button" class="border border-gray-600 px-6 py-2 mt-6 rounded">WEBSITE</button>
+        </a>
+
+      </div>
+
+      <div v-if="currentSlide === 2" class="flex flex-col md:w-1/2 w-5/6 w-full slide-info-height">
+
+        <h4 class="font-semibold text-gray-300 text-lg mb-2">03</h4>
+
+        <h3 class="font-bold text-gray-600 mb-1 text-base">MOVIES DATABASE</h3>
+
+        <p>Full Stack Developer</p>
+
+        <p class="mt-4">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+
+        <a href="#">
+          <button type="button" class="border border-gray-600 px-6 py-2 mt-6 rounded">WEBSITE</button>
+        </a>
+
+      </div>
+
+      <div v-if="currentSlide === 3" class="flex flex-col md:w-1/2 w-5/6 w-full slide-info-height">
+
+        <h4 class="font-semibold text-gray-300 text-lg mb-2">04</h4>
+
+        <h3 class="font-bold text-gray-600 mb-1 text-base">SCARY MAZE</h3>
+
+        <p>Frontend Developer</p>
 
         <p class="mt-4">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -78,7 +130,7 @@ export default {
        autoHeight: true, //enable auto height
        spaceBetween: 20,
        setWrapperSize: true,
-       loop: true,
+       loop: false,
      }
    }
  },
@@ -124,6 +176,27 @@ export default {
   }
   .slider1{
     background-image: url("https://cdn.dribbble.com/users/1430543/screenshots/15800306/media/93d56c49def4c7b7b2464b0c3fe65ed9.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+  }
+
+  .slider2{
+    background-image: url("https://cdn.dribbble.com/users/1430543/screenshots/15800306/media/7f3a21e5a4373d5e27dc394bb846edaa.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+  }
+
+  .slider3{
+    background-image: url("https://cdn.dribbble.com/users/1430543/screenshots/15800306/media/63f78a77317c757c55cbf3f3b42a4fc7.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+  }
+
+  .slider4{
+    background-image: url("https://cdn.dribbble.com/users/1430543/screenshots/15800306/media/bc45e97a1ab079b87a17eca9e9424583.jpg");
     background-repeat: no-repeat;
     background-position: left;
     background-size: contain;
