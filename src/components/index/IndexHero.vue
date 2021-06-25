@@ -1,9 +1,9 @@
 <template>
   <div class="flex flex-col text-center">
 
-    <div class="mt-12">
+    <div class="mt-4 lg:mt-12">
       <h2 class="text-2xl mb-1">Hi, I'm Luke & I'm a</h2>
-      <h1 class="text-5xl mb-2 font-bold">Full Stack Developer</h1>
+      <h1 class="text-4xl lg:text-5xl mb-2 font-bold">Full Stack Developer</h1>
       <h2 class="text-2xl">Based in Berlin</h2>
     </div>
 

@@ -1,12 +1,12 @@
 <template>
-  <div class="flex flex-col w-2/3 mx-auto mb-24">
+  <div class="flex flex-col w-full px-4 lg:px-0 lg:w-2/3 mx-auto mb-24 mt-12 lg:mt-0">
 
-    <h3 class="font-semibold text-gray-500 mb-12">A FEW OF MY PROJECTS</h3>
+    <h3 class="font-semibold text-xl lg:text-base text-gray-500 mb-8 lg:mb-12">A FEW OF MY PROJECTS</h3>
 
-    <div class="flex items-center">
+    <div class="flex flex-col lg:flex-row items-center">
 
       <!-- swiper image -->
-      <div class="w-1/2 ">
+      <div class="w-full lg:w-1/2">
 
         <swiper @slideChange="slideChanged" :options="swiperOption" style="height: auto" ref="mySwiper">
 
@@ -118,9 +118,9 @@
   </div>
 
   <!-- Controls for sm screens -->
-  <div id="mobile-swipe-controls" class="flex lg:hidden w-full">
+  <div id="mobile-swipe-controls" class="flex lg:hidden w-full mt-32">
 
-    <div class="ml-auto cursor-pointer" style="background-image: none;">
+    <div class="ml-auto cursor-pointer mr-8" style="background-image: none;">
 
       <img src="@/assets/arrow-left.png"
       class="w-16" :class="[currentSlide === 0 ? 'opacity-10' : 'opacity-40']"

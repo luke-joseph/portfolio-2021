@@ -1,25 +1,25 @@
 <template>
   <div class="container mx-auto">
 
-    <div id="large-nav" class="hidden sm:flex items-center leading-loose tracking-wide text-base">
+    <div id="large-nav" class="flex items-center leading-loose tracking-wide text-base mt-4 lg:mt-0">
 
        <div class="container mx-auto flex items-center justify-between">
 
-         <nav class="hidden sm:flex mx-auto w-full">
+         <nav class="flex mx-auto w-full">
 
              <div class="flex pt-2 pb-2 text-gray-500 font-semibold items-center justify-between w-1/2 mx-auto">
 
-               <a to="#" class="home cursor-pointer tracking-wider pr-4 hover:no-underline text-lg">Home</a>
+               <a to="#" class="home hidden lg:block cursor-pointer tracking-wider pr-4 hover:no-underline text-lg">Home</a>
 
-               <a to="#projects" class="project cursor-pointer tracking-wider hover:no-underline text-lg">Projects</a>
+               <a to="#projects" class="project hidden lg:block cursor-pointer tracking-wider hover:no-underline text-lg">Projects</a>
 
                <img src="../assets/69426404_463769394467924_3898618810080587669_n.jpg"
-               class="rounded-full w-24 mx-4"
+               class="rounded-full w-24 mx-auto lg:mx-4 "
                alt="Luke Cartoon Logo">
 
-               <a to="#about" class="about cursor-pointer tracking-wider pr-4 hover:no-underline text-lg">About</a>
+               <a to="#about" class="about hidden lg:block cursor-pointer tracking-wider pr-4 hover:no-underline text-lg">About</a>
 
-               <a to="#contact" class="contact cursor-pointer tracking-wider pr-4 hover:no-underline text-lg">Contact</a>
+               <a to="#contact" class="contact hidden lg:block cursor-pointer tracking-wider pr-4 hover:no-underline text-lg">Contact</a>
 
              </div>
 
@@ -37,6 +37,3 @@ export default {
   name: 'NavBar'
 }
 </script>
-
-<style lang="css" scoped>
-</style>
