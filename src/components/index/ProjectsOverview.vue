@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col w-full px-4 lg:px-0 lg:w-2/3 mx-auto border-b lg:border-none pb-12 lg:pb-0 mb-12 mt-12 lg:mt-0">
+  <div class="flex flex-col w-full px-4 xl:px-0 xl:w-2/3 mx-auto border-b xl:border-none pb-12 xl:pb-0 mb-12 xl:mb-24 mt-12 lg:mt-0">
 
     <h3 class="font-semibold text-lg lg:text-base text-gray-500 mb-8 lg:mb-12">A FEW OF MY PROJECTS</h3>
 
@@ -22,7 +22,7 @@
 
     </div>
 
-      <div v-if="currentSlide === 0" class="flex flex-col md:w-1/2 w-5/6 w-full slide-info-height">
+      <div v-if="currentSlide === 0" class="flex flex-col w-5/6 lg:w-1/2 w-full mt-4 lg:mt-0 slide-info-height?">
 
         <h4 class="font-semibold text-gray-300 text-lg mb-2">01</h4>
 
