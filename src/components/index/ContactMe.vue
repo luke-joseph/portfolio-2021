@@ -7,9 +7,9 @@
 
     <div class="w-full h-1 border border-gray-50 bg-gray-100 -mt-3 mb-16"></div>
 
-    <div class="flex w-2/3 mx-auto">
+    <div class="flex flex-col lg:flex-row px-4 lg:px-0 w-full lg:w-2/3 mx-auto">
 
-      <div class="w-1/2">
+      <div class="w-full lg:w-1/2 mb-8">
 
         <div class="flex mb-4">
 
@@ -77,7 +77,7 @@
 
       </div>
 
-      <div class="w-1/3 ml-auto">
+      <div class="w-full lg:w-1/3 ml-auto">
 
         <h3 class="font-semibold text-gray-500 mb-4">CONTACT METHODS</h3>
 

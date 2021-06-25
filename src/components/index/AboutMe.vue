@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col-reverse lg:flex-row w-full px-4 lg:px-0 lg:w-2/3 mx-auto mb-24">
+  <div class="flex flex-col-reverse lg:flex-row w-full px-4 lg:px-0 lg:w-2/3 mx-auto mb-12 lg:mb-24">
     <div class="w-full lg:w-1/2">
       <h3 class="font-semibold text-gray-500 text-lg lg:text-base">ABOUT ME</h3>
       <p class="mt-4">
