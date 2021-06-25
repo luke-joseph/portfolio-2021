@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col w-full px-4 lg:px-0 lg:w-2/3 mx-auto mb-24 mt-12 lg:mt-0">
 
-    <h3 class="font-semibold text-xl lg:text-base text-gray-500 mb-8 lg:mb-12">A FEW OF MY PROJECTS</h3>
+    <h3 class="font-semibold text-lg lg:text-base text-gray-500 mb-8 lg:mb-12">A FEW OF MY PROJECTS</h3>
 
     <div class="flex flex-col lg:flex-row items-center">
 
