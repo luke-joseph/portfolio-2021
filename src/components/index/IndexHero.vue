@@ -12,11 +12,14 @@
 
         <div class="flex flex-wrap w-full mx-auto z-50">
 
-          <div class="w-1/4 mt-3 h-full">
+          <div class="hidden lg:block lg:w-1/4 mt-3 h-full">
+
             <p class="bg-white inline text-xl text-gray-300 italic px-4">Backend</p>
+
           </div>
 
-          <div class="w-1/2 grid grid-cols-4">
+          <div class="w-full lg:w-1/2 grid grid-cols-4">
+
             <div class="flex flex-col h-full">
               <img src="@/assets/PHP-logo.svg" class="w-20 h-16 mx-auto object-contain" alt="laravel logo">
               <p class="text-base text-gray-500">PHP</p>
@@ -36,11 +39,14 @@
               <img src="@/assets/tailwindcss-logo.jpg" class="w-16 h-16 mx-auto object-contain" alt="tailwind logo">
               <p class="text-base text-gray-500">Tailwind</p>
             </div>
+
           </div>
 
 
-          <div class="w-1/4 mt-3 h-full">
+          <div class="hidden lg:block lg:w-1/4 mt-3 h-full">
+
             <p class="bg-white inline text-xl text-gray-300 italic px-4">Frontend</p>
+
           </div>
 
         </div>
