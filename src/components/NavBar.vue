@@ -7,7 +7,7 @@
 
          <nav class="hidden sm:flex mx-auto w-full">
 
-             <div class="flex pt-2 pb-2 text-grey-600 font-bold items-center justify-between w-1/2 mx-auto">
+             <div class="flex pt-2 pb-2 text-gray-500 font-semibold items-center justify-between w-1/2 mx-auto">
 
                <a to="#" class="home cursor-pointer tracking-wider pr-4 hover:no-underline text-lg">Home</a>
 
