@@ -13,7 +13,7 @@
 
                <a href="#projects" class="project hidden lg:block cursor-pointer tracking-wider hover:no-underline text-lg">Projects</a>
 
-               <img src="../assets/69426404_463769394467924_3898618810080587669_n.jpg"
+               <img src="@/assets/logo5.png"
                class="rounded-full w-24 mx-auto lg:mx-4 "
                alt="Luke Cartoon Logo">
 
