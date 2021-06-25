@@ -7,7 +7,7 @@
       </p>
     </div>
     <div class="w-full lg:w-1/2 mb-4 lg:mb-0">
-      <img src="@/assets/22075645.jpg" alt="Luke professional image" class="w-2/3 lg:w-1/2 lg:mx-auto">
+      <img src="@/assets/22075645.jpg" alt="Luke professional image" class="w-2/3 sm:w-1/2 md:w-1/3 lg:w-1/2 lg:mx-auto">
     </div>
   </div>
 </template>

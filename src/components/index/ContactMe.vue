@@ -7,7 +7,7 @@
 
     <div class="w-full h-1 border border-gray-50 bg-gray-100 -mt-3 mb-16"></div>
 
-    <div class="flex flex-col lg:flex-row px-4 lg:px-0 w-full lg:w-2/3 mx-auto -mt-6 lg:-mt-0">
+    <div class="flex flex-col lg:flex-row px-4 xl:px-0 w-full xl:w-2/3 mx-auto -mt-6 lg:-mt-0">
 
       <div class="w-full lg:w-1/2 mb-8">
 
