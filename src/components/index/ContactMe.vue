@@ -1,13 +1,13 @@
 <template>
   <div class="flex flex-col w-full mx-auto mt-8">
 
-    <h2 class="z-50 text-center inline-block bg-white?">
-      <span class="bg-white px-4 text-xl">Need Help With Your Website?</span>
+    <h2 class="z-50 lg:text-center inline-block">
+      <span class="bg-white px-4 text-xl lg:text-xl">Need Help With Your Website?</span>
     </h2>
 
     <div class="w-full h-1 border border-gray-50 bg-gray-100 -mt-3 mb-16"></div>
 
-    <div class="flex flex-col lg:flex-row px-4 lg:px-0 w-full lg:w-2/3 mx-auto">
+    <div class="flex flex-col lg:flex-row px-4 lg:px-0 w-full lg:w-2/3 mx-auto -mt-6 lg:-mt-0">
 
       <div class="w-full lg:w-1/2 mb-8">
 
