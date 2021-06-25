@@ -9,17 +9,17 @@
 
              <div class="flex pt-2 pb-2 text-gray-500 font-semibold items-center justify-between w-1/2 mx-auto">
 
-               <a to="#" class="home hidden lg:block cursor-pointer tracking-wider pr-4 hover:no-underline text-lg">Home</a>
+               <a href="#" class="home hidden lg:block cursor-pointer tracking-wider pr-4 hover:no-underline text-lg">Home</a>
 
-               <a to="#projects" class="project hidden lg:block cursor-pointer tracking-wider hover:no-underline text-lg">Projects</a>
+               <a href="#projects" class="project hidden lg:block cursor-pointer tracking-wider hover:no-underline text-lg">Projects</a>
 
                <img src="../assets/69426404_463769394467924_3898618810080587669_n.jpg"
                class="rounded-full w-24 mx-auto lg:mx-4 "
                alt="Luke Cartoon Logo">
 
-               <a to="#about" class="about hidden lg:block cursor-pointer tracking-wider pr-4 hover:no-underline text-lg">About</a>
+               <a href="#about" class="about hidden lg:block cursor-pointer tracking-wider pr-4 hover:no-underline text-lg">About</a>
 
-               <a to="#contact" class="contact hidden lg:block cursor-pointer tracking-wider pr-4 hover:no-underline text-lg">Contact</a>
+               <a href="#contact" class="contact hidden lg:block cursor-pointer tracking-wider pr-4 hover:no-underline text-lg">Contact</a>
 
              </div>
 

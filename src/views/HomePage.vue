@@ -2,9 +2,9 @@
 
   <div class="flex flex-col">
       <index-hero />
-      <projects-overview />
-      <about-me />
-      <contact-me />
+      <projects-overview id="projects" />
+      <about-me id="about" />
+      <contact-me id="contact" />
   </div>
 
 </template>

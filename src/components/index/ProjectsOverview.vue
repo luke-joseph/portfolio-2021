@@ -6,7 +6,7 @@
     <div class="flex flex-col lg:flex-row items-center">
 
       <!-- swiper image -->
-      <div class="w-full lg:w-1/2">
+      <div class="w-full lg:w-1/2 lg:pr-8">
 
         <swiper @slideChange="slideChanged" :options="swiperOption" style="height: auto" ref="mySwiper">
 
@@ -227,7 +227,7 @@ export default {
     background-size: contain;
   }
 
-  .slide-info-height{
+  /* .slide-info-height{
     height: 20rem;
   }
   @media (min-width: 768px) {
@@ -239,5 +239,5 @@ export default {
     .slide-info-height{
       height: 20rem;
     }
-  }
+  } */
 </style>
