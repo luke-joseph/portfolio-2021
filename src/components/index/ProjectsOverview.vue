@@ -26,7 +26,7 @@
 
         <h4 class="font-semibold text-gray-300 text-lg mb-2">01</h4>
 
-        <h3 class="font-bold text-gray-600 mb-1 text-base">TRACKWIRE.IO - SaaS WebApp</h3>
+        <h3 class="font-bold text-gray-600 mb-1 text-base">TRACKWIRE <span class="font-semibold">- SaaS Web App</span></h3>
 
         <p>Founder / Full Stack Developer</p>
 
@@ -57,7 +57,7 @@
 
         <h4 class="font-semibold text-gray-300 text-lg mb-2">02</h4>
 
-        <h3 class="font-bold text-gray-600 mb-1 text-base">SATELLITES</h3>
+        <h3 class="font-bold text-gray-600 mb-1 text-base">SATELLITES <span class="font-semibold">- Customisable Web App & Store</span></h3>
 
         <p>Full Stack Developer</p>
 
@@ -88,7 +88,7 @@
 
         <h4 class="font-semibold text-gray-300 text-lg mb-2">03</h4>
 
-        <h3 class="font-bold text-gray-600 mb-1 text-base">MOVIES DATABASE</h3>
+        <h3 class="font-bold text-gray-600 mb-1 text-base">MOVIES DB <span class="font-semibold">- Movies Aggregator & API integration</span></h3>
 
         <p>Full Stack Developer</p>
 
@@ -123,16 +123,16 @@
 
         <h4 class="font-semibold text-gray-300 text-lg mb-2">04</h4>
 
-        <h3 class="font-bold text-gray-600 mb-1 text-base">SCARY MAZE</h3>
+        <h3 class="font-bold text-gray-600 mb-1 text-base">SCARY MAZE <span class="font-semibold">- Browser Game</span></h3>
 
         <p>Frontend Developer</p>
 
         <p class="mt-4">
-          <span class="font-bold text-gray-400 text-sm">OVERVIEW: </span>A fun game using mouse events. Pass each level without falling into the lava to complete the game. On completion each visitor is given a score depending on the speed of completion.
+          <span class="font-bold text-gray-400 text-sm">OVERVIEW: </span>Addictive browser based game using mouse events. Pass each level without falling into the darkness to complete the game.
         </p>
 
         <p class="mt-4">
-          <span class="font-bold text-gray-400 text-sm">KEY FEATURES: </span>Automated web app deployments, free trials, payment processing, emails based on user actions, Modern Frontend, User dashboard, marketing product pages, blog + more.
+          <span class="font-bold text-gray-400 text-sm">KEY FEATURES: </span>5 Terrifying levels with increasing difficulty. SPA with Vuex used to store the state of the game. Visitors receive time based medals on completion.
         </p>
 
         <div class="tech-used flex mt-4">
@@ -177,7 +177,7 @@
   </div>
 
   <!-- Controls for sm screens -->
-  <div id="mobile-swipe-controls" class="flex lg:hidden w-full mt-32">
+  <div id="mobile-swipe-controls" class="flex lg:hidden w-full mt-6">
 
     <div class="ml-auto cursor-pointer mr-8" style="background-image: none;">
 
@@ -286,17 +286,17 @@ export default {
     background-size: contain;
   }
 
-  /* #projects-container{
-    height: 20rem;
+   #projects-container{
+    min-height: 48rem;
   }
   @media (min-width: 768px) {
     #projects-container{
-      height: 30rem;
+      min-height: 41rem;
     }
-  } */
+  }
   @media (min-width: 1024px) {
     #projects-container{
-      min-height: 400px;
+      min-height: 25rem;
     }
   }
 </style>
