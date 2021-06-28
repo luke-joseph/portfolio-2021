@@ -31,11 +31,22 @@
         <p>Founder / Full Stack Developer</p>
 
         <p class="mt-4">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <span class="font-bold text-gray-400 text-sm">OVERVIEW: </span>SaaS web app for music producers to monetize their music effortlessly. Within minutes of signing up a user can have their own website with a built-in store to sell their music, licenses, releases, services & more directly to fans & visitors.
         </p>
 
+        <p class="mt-4">
+          <span class="font-bold text-gray-400 text-sm">KEY FEATURES: </span>Automated web app deployments, free trials, payment processing, emails based on user actions, Modern Frontend, User dashboard, marketing product pages, blog + more.
+        </p>
+
+        <div class="tech-used flex mt-4">
+          <img src="@/assets/php-logo-basic.svg" class="w-8 object-contain mr-2" alt="php logo">
+          <img src="@/assets/laravel-logo.png" class="w-6 object-contain bg-white mr-3" alt="laravel logo">
+          <img src="@/assets/vue-logo.png" class="w-5 object-contain mr-2" alt="vue logo">
+          <img src="@/assets/tailwindcss-logo.jpg" class="w-7 object-contain" alt="tailwind logo">
+        </div>
+
         <div class="flex">
-          <a href="#" class="self-start">
+          <a target="_blank" href="https://trackwire.io/features" class="self-start">
             <button type="button" class="border border-gray-600 px-6 py-2 mt-6 rounded">WEBSITE</button>
           </a>
         </div>
@@ -51,11 +62,22 @@
         <p>Full Stack Developer</p>
 
         <p class="mt-4">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <span class="font-bold text-gray-400 text-sm">OVERVIEW: </span>Self contained web apps deployed as part of trackwires trial or paid service offerings.
         </p>
 
+        <p class="mt-4">
+          <span class="font-bold text-gray-400 text-sm">KEY FEATURES: </span>Complete Customisable Website, Interactive music store / catalog, Dynamic File uploads, Payment processing integrations, Statistics and Records, Modern Frontend, Admin dashboard.
+        </p>
+
+        <div class="tech-used flex mt-4">
+          <img src="@/assets/php-logo-basic.svg" class="w-8 object-contain mr-2" alt="php logo">
+          <img src="@/assets/laravel-logo.png" class="w-6 object-contain bg-white mr-3" alt="laravel logo">
+          <img src="@/assets/vue-logo.png" class="w-5 object-contain mr-2" alt="vue logo">
+          <img src="@/assets/tailwindcss-logo.jpg" class="w-7 object-contain" alt="tailwind logo">
+        </div>
+
         <div class="flex">
-          <a href="#" class="self-start">
+          <a target="_blank" href="https://illuzual.com/beat-store" class="self-start">
             <button type="button" class="border border-gray-600 px-6 py-2 mt-6 rounded">WEBSITE</button>
           </a>
         </div>
@@ -71,15 +93,26 @@
         <p>Full Stack Developer</p>
 
         <p class="mt-4">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <span class="font-bold text-gray-400 text-sm">OVERVIEW: </span>Web app that consumes themoviedb api to serve movie information under a clean and inviting ui.
         </p>
 
+        <p class="mt-4">
+          <span class="font-bold text-gray-400 text-sm">KEY FEATURES: </span>Home page with popular, upcoming & recommended movies. Show movie page with cast, related movies and watch trailer modal. Search movie page to find a movie.
+        </p>
+
+        <div class="tech-used flex mt-4">
+          <img src="@/assets/php-logo-basic.svg" class="w-8 object-contain mr-2" alt="php logo">
+          <img src="@/assets/laravel-logo.png" class="w-6 object-contain bg-white mr-3" alt="laravel logo">
+          <img src="@/assets/vue-logo.png" class="w-5 object-contain mr-2" alt="vue logo">
+          <img src="@/assets/tailwindcss-logo.jpg" class="w-7 object-contain" alt="tailwind logo">
+        </div>
+
         <div class="flex">
-          <a href="#" class="self-start">
+          <a target="_blank" href="https://moviesdb.lukejoseph.dev" class="self-start">
             <button type="button" class="border border-gray-600 px-6 py-2 mt-6 rounded">WEBSITE</button>
           </a>
 
-          <a href="#" class="self-start">
+          <a target="_blank" href="https://github.com/luke-joseph/movies-library" class="self-start">
             <button type="button" class="border border-gray-600 px-6 py-2 mt-6 rounded ml-3">GITHUB</button>
           </a>
         </div>
@@ -95,15 +128,24 @@
         <p>Frontend Developer</p>
 
         <p class="mt-4">
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <span class="font-bold text-gray-400 text-sm">OVERVIEW: </span>A fun game using mouse events. Clear each level without falling into the lava to complete the game. On completion each visitor is given a score depending on the speed of completion.
         </p>
 
+        <p class="mt-4">
+          <span class="font-bold text-gray-400 text-sm">KEY FEATURES: </span>Automated web app deployments, free trials, payment processing, emails based on user actions, Modern Frontend, User dashboard, marketing product pages, blog + more.
+        </p>
+
+        <div class="tech-used flex mt-4">
+          <img src="@/assets/vue-logo.png" class="w-5 object-contain mr-2" alt="vue logo">
+          <img src="@/assets/tailwindcss-logo.jpg" class="w-7 object-contain" alt="tailwind logo">
+        </div>
+
         <div class="flex">
-          <a href="#" class="self-start">
+          <a target="_blank" href="https://scarymaze.lukejoseph.dev" class="self-start">
             <button type="button" class="border border-gray-600 px-6 py-2 mt-6 rounded">WEBSITE</button>
           </a>
 
-          <a href="#" class="self-start">
+          <a target="_blank" href="https://github.com/luke-joseph/maze" class="self-start">
             <button type="button" class="border border-gray-600 px-6 py-2 mt-6 rounded ml-3">GITHUB</button>
           </a>
         </div>

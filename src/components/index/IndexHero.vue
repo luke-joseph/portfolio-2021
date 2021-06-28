@@ -21,23 +21,23 @@
           <div class="w-full lg:w-1/2 grid grid-cols-4">
 
             <div class="flex flex-col h-full">
-              <img src="@/assets/PHP-logo.svg" class="w-20 h-16 mx-auto object-contain" alt="laravel logo">
-              <p class="text-base text-gray-500">PHP</p>
+              <img src="@/assets/php-logo-basic.svg" class="w-20 h-16 mx-auto object-contain" alt="php logo">
+              <p class="text-base font-semibold text-gray-300">PHP</p>
             </div>
 
             <div class="flex flex-col h-full">
               <img src="@/assets/laravel-logo.png" class="w-16 h-16 mx-auto object-contain bg-white" alt="laravel logo">
-              <p class="text-base text-gray-500">Laravel</p>
+              <p class="text-base font-semibold text-gray-300">Laravel</p>
             </div>
 
             <div class="flex flex-col h-full">
               <img src="@/assets/vue-logo.png" class="w-16 h-16 mx-auto object-contain" alt="vue logo">
-              <p class="text-base text-gray-500">Vue</p>
+              <p class="text-base font-semibold text-gray-300">Vue</p>
             </div>
 
             <div class="flex flex-col h-full">
               <img src="@/assets/tailwindcss-logo.jpg" class="w-16 h-16 mx-auto object-contain" alt="tailwind logo">
-              <p class="text-base text-gray-500">Tailwind</p>
+              <p class="text-base font-semibold text-gray-300">Tailwind</p>
             </div>
 
           </div>

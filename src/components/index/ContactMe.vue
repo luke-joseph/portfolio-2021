@@ -90,7 +90,7 @@
             </svg>
           </a>
 
-          <a href="mailto:illuzual@gmail.com" class="ml-1 hover:underline">send an email</a>
+          <a href="mailto:hello@lukejoseph.dev" class="ml-1 hover:underline">send an email</a>
 
         </div>
 
