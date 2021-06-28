@@ -20,24 +20,24 @@
 
           <div class="w-full lg:w-1/2 grid grid-cols-4">
 
-            <div class="flex flex-col h-full">
+            <div class="flex flex-col h-full text-gray-300 hover:text-gray-700">
               <img src="@/assets/php-logo-basic.svg" class="w-20 h-16 mx-auto object-contain" alt="php logo">
-              <p class="text-base font-semibold text-gray-300">PHP</p>
+              <p class="text-base font-semibold">PHP</p>
             </div>
 
-            <div class="flex flex-col h-full">
+            <div class="flex flex-col h-full text-gray-300 hover:text-gray-700">
               <img src="@/assets/laravel-logo.png" class="w-16 h-16 mx-auto object-contain bg-white" alt="laravel logo">
-              <p class="text-base font-semibold text-gray-300">Laravel</p>
+              <p class="text-base font-semibold">Laravel</p>
             </div>
 
-            <div class="flex flex-col h-full">
-              <img src="@/assets/vue-logo.png" class="w-16 h-16 mx-auto object-contain" alt="vue logo">
-              <p class="text-base font-semibold text-gray-300">Vue</p>
+            <div class="flex flex-col h-full text-gray-300 hover:text-gray-700">
+              <img src="@/assets/vue-logo.png" class="w-12 h-16 mx-auto object-contain" alt="vue logo">
+              <p class="text-base font-semibold">Vue</p>
             </div>
 
-            <div class="flex flex-col h-full">
+            <div class="flex flex-col h-full text-gray-300 hover:text-gray-700">
               <img src="@/assets/tailwindcss-logo.jpg" class="w-16 h-16 mx-auto object-contain" alt="tailwind logo">
-              <p class="text-base font-semibold text-gray-300">Tailwind</p>
+              <p class="text-base font-semibold">Tailwind</p>
             </div>
 
           </div>
