@@ -259,7 +259,7 @@ export default {
     line-height: 300px;
   }
   .slider1{
-    background-image: url("https://cdn.dribbble.com/users/1430543/screenshots/15800306/media/93d56c49def4c7b7b2464b0c3fe65ed9.jpg");
+    background-image: url("/img/trackwire-pj-image.jpg");
     background-repeat: no-repeat;
     background-position: left;
     background-size: contain;
