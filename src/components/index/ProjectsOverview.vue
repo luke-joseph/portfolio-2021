@@ -3,7 +3,7 @@
 
     <h3 class="font-semibold text-lg lg:text-base text-gray-500 mb-8 lg:mb-12">A FEW OF MY PROJECTS</h3>
 
-    <div class="flex flex-col lg:flex-row items-center">
+    <div id="projects-container" class="flex flex-col lg:flex-row items-center">
 
       <!-- swiper image -->
       <div class="w-full lg:w-1/2 lg:pr-8">
@@ -31,7 +31,7 @@
         <p>Founder / Full Stack Developer</p>
 
         <p class="mt-4">
-          <span class="font-bold text-gray-400 text-sm">OVERVIEW: </span>SaaS web app for music producers to monetize their music effortlessly. Within minutes of signing up a user can have their own website with a built-in store to sell their music, licenses, releases, services & more directly to fans & visitors.
+          <span class="font-bold text-gray-400 text-sm">OVERVIEW: </span>SaaS web app for music producers to monetize their music effortlessly. Within minutes of signing up a user can have their own website with a built-in store.
         </p>
 
         <p class="mt-4">
@@ -128,7 +128,7 @@
         <p>Frontend Developer</p>
 
         <p class="mt-4">
-          <span class="font-bold text-gray-400 text-sm">OVERVIEW: </span>A fun game using mouse events. Clear each level without falling into the lava to complete the game. On completion each visitor is given a score depending on the speed of completion.
+          <span class="font-bold text-gray-400 text-sm">OVERVIEW: </span>A fun game using mouse events. Pass each level without falling into the lava to complete the game. On completion each visitor is given a score depending on the speed of completion.
         </p>
 
         <p class="mt-4">
@@ -259,44 +259,44 @@ export default {
     line-height: 300px;
   }
   .slider1{
-    background-image: url("/img/trackwire-pj-image.jpg");
+    background-image: url("/img/trackwireio-pj-image.jpg");
     background-repeat: no-repeat;
     background-position: left;
     background-size: contain;
   }
 
   .slider2{
-    background-image: url("https://cdn.dribbble.com/users/1430543/screenshots/15800306/media/7f3a21e5a4373d5e27dc394bb846edaa.jpg");
+    background-image: url("/img/satellites-project-image.jpg");
     background-repeat: no-repeat;
     background-position: left;
     background-size: contain;
   }
 
   .slider3{
-    background-image: url("https://cdn.dribbble.com/users/1430543/screenshots/15800306/media/63f78a77317c757c55cbf3f3b42a4fc7.jpg");
+    background-image: url("/img/movies-project-image.jpg");
     background-repeat: no-repeat;
     background-position: left;
     background-size: contain;
   }
 
   .slider4{
-    background-image: url("https://cdn.dribbble.com/users/1430543/screenshots/15800306/media/bc45e97a1ab079b87a17eca9e9424583.jpg");
+    background-image: url("/img/scarymaze-pj-image.jpg");
     background-repeat: no-repeat;
     background-position: left;
     background-size: contain;
   }
 
-  /* .slide-info-height{
+  /* #projects-container{
     height: 20rem;
   }
   @media (min-width: 768px) {
-    .slide-info-height{
+    #projects-container{
       height: 30rem;
     }
-  }
-  @media (min-width: 1024px) {
-    .slide-info-height{
-      height: 20rem;
-    }
   } */
+  @media (min-width: 1024px) {
+    #projects-container{
+      min-height: 400px;
+    }
+  }
 </style>
