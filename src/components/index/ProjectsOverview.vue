@@ -3,23 +3,26 @@
 
     <h3 class="font-semibold text-lg lg:text-base text-gray-500 mb-16 lg:mb-12 lg:text-center">A FEW OF MY PROJECTS</h3>
 
+    <!-- projects container -->
+
     <div id="projects-container" class="flex flex-col lg:flex-row items-center">
 
       <!-- swiper image -->
+
       <div class="w-full lg:w-1/2 lg:pr-8">
 
         <swiper @slideChange="slideChanged" :options="swiperOption" style="height: auto" ref="mySwiper">
 
-          <swiper-slide v-for="(project, index) in projects" :key="index"
-          class="slider"
-          v-bind:style='{ backgroundImage: "url(" + project.imageUrl + ")", }'
-          ></swiper-slide>
+          <swiper-slide v-for="(project, index) in projects"
+          :key="index" class="slider"
+          v-bind:style='{ backgroundImage: "url(" + project.imageUrl + ")" }'
+          />
 
         </swiper>
 
     </div>
 
-    <!-- project to show is synced with currentSlide and ProjectsData index -->
+    <!-- project to show (is synced with currentSlide and ProjectsData index) -->
 
       <div class="project flex flex-col md:w-1/2 w-5/6 w-full slide-info-height mt-4 lg:mt-0">
 
@@ -62,62 +65,31 @@
 
       </div>
 
-  </div>
-
-  <!-- Controls for lg screens -->
-  <div class="hidden lg:flex w-full mt-16">
-
-    <div class="ml-auto cursor-pointer mr-8" style="background-image: none;">
-
-      <img src="@/assets/arrow-left.png"
-      class="w-16" :class="[currentSlide === 0 ? 'opacity-10 hover:opacity-10' : 'opacity-40 hover:opacity-60']"
-      @click="prevSlide" alt="left arrow">
-
     </div>
 
-    <div class="mr-auto cursor-pointer" style="background-image: none;">
+    <!-- end of projects container -->
 
-      <img src="@/assets/arrow-right.png"
-      class="w-16" :class="[currentSlide === lastSlideIndex ? 'opacity-10' : 'opacity-40 hover:opacity-60']"
-      @click="nextSlide" alt="right arrow">
-
-    </div>
-
-  </div>
-
-  <!-- Controls for sm screens -->
-  <div id="mobile-swipe-controls" class="flex lg:hidden w-full mt-6">
-
-    <div class="ml-auto cursor-pointer mr-8" style="background-image: none;">
-
-      <img src="@/assets/arrow-left.png"
-      class="w-16" :class="[currentSlide === 0 ? 'opacity-10' : 'opacity-40']"
-      @click="prevSlide" alt="left arrow">
-
-    </div>
-
-    <div class="mr-auto cursor-pointer" style="background-image: none;">
-
-      <img src="@/assets/arrow-right.png"
-      class="w-16" :class="[currentSlide === lastSlideIndex ? 'opacity-10' : 'opacity-40']"
-      @click="nextSlide" alt="right arrow">
-
-    </div>
+    <projects-controls
+    :currentSlide="currentSlide"
+    :lastSlideIndex="lastSlideIndex"
+    @prevSlide="prevSlide"
+    @nextSlide="nextSlide" />
 
   </div>
-
-  </div>
-
 </template>
 
 <script>
 import {ProjectsData} from '@/data/ProjectsData.js';
+import ProjectsControls from './ProjectsControls.vue'
 
 /*
 * currentSlide is synced w/ the swiper.realIndex for supporting text & nav
 */
 export default {
   name: 'ProjectsOverview',
+  components: {
+    ProjectsControls
+  },
   data() {
    return {
      projects: ProjectsData,
