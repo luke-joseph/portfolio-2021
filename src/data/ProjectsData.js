@@ -71,7 +71,7 @@ export const ProjectsData = [
           additionalClasses: '',
         }
       ],
-    imageUrl: '/img/trackwireio-pj-image.jpg'
+    imageUrl: '/img/satellites-project-image.jpg'
   },
   {
     heading: 'MOVIES DB',
@@ -113,7 +113,7 @@ export const ProjectsData = [
           additionalClasses: 'ml-3',
         }
       ],
-    imageUrl: '/img/trackwireio-pj-image.jpg'
+    imageUrl: '/img/movies-project-image.jpg'
   },
   {
     heading: 'SCARY MAZE',
@@ -145,6 +145,6 @@ export const ProjectsData = [
           additionalClasses: 'ml-3',
         }
       ],
-    imageUrl: '/img/trackwireio-pj-image.jpg'
+    imageUrl: '/img/scarymaze-pj-image.jpg'
   },
 ];

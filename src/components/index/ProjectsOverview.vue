@@ -10,17 +10,16 @@
 
         <swiper @slideChange="slideChanged" :options="swiperOption" style="height: auto" ref="mySwiper">
 
-          <swiper-slide class="slider1"></swiper-slide>
-
-          <swiper-slide class="slider2"></swiper-slide>
-
-          <swiper-slide class="slider3"></swiper-slide>
-
-          <swiper-slide class="slider4"></swiper-slide>
+          <swiper-slide v-for="(project, index) in projects" :key="index"
+          class="slider"
+          v-bind:style='{ backgroundImage: "url(" + project.imageUrl + ")", }'
+          ></swiper-slide>
 
         </swiper>
 
     </div>
+
+    <!-- project to show is synced with currentSlide and ProjectsData index -->
 
       <div class="project flex flex-col md:w-1/2 w-5/6 w-full slide-info-height mt-4 lg:mt-0">
 
@@ -123,7 +122,7 @@ export default {
    return {
      projects: ProjectsData,
      currentSlide: 0,
-     amountOfSlides: 4,
+     amountOfSlides: ProjectsData.length,
      swiperOption: {
        autoHeight: true, //enable auto height
        spaceBetween: 20,
@@ -167,49 +166,37 @@ export default {
 }
 </script>
 <style scoped>
+
   .swiper-container .swiper-slide {
     height: 300px;
     line-height: 300px;
   }
-  .slider1{
-    background-image: url("/img/trackwireio-pj-image.jpg");
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: contain;
-  }
 
-  .slider2{
-    background-image: url("/img/satellites-project-image.jpg");
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: contain;
-  }
-
-  .slider3{
-    background-image: url("/img/movies-project-image.jpg");
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: contain;
-  }
-
-  .slider4{
-    background-image: url("/img/scarymaze-pj-image.jpg");
+  .slider{
     background-repeat: no-repeat;
     background-position: left;
     background-size: contain;
   }
 
    #projects-container{
+
     min-height: 48rem;
+
   }
+
   @media (min-width: 768px) {
+
     #projects-container{
       min-height: 41rem;
     }
+
   }
+
   @media (min-width: 1024px) {
+
     #projects-container{
       min-height: 25rem;
     }
+
   }
 </style>
