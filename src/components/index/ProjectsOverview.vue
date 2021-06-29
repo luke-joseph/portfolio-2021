@@ -30,11 +30,11 @@
 
         <p>Founder / Full Stack Developer</p>
 
-        <p class="mt-4">
+        <p class="mt-4 text-gray-600">
           <span class="font-bold text-gray-400 text-sm">OVERVIEW: </span>SaaS web app for music producers to monetize their music effortlessly. Within minutes of signing up a user can have their own website with a built-in store.
         </p>
 
-        <p class="mt-4">
+        <p class="mt-4 text-gray-600">
           <span class="font-bold text-gray-400 text-sm">KEY FEATURES: </span>Automated web app deployments, free trials, payment processing, emails based on user actions, Modern Frontend, User dashboard, marketing product pages, blog + more.
         </p>
 
@@ -61,11 +61,11 @@
 
         <p>Full Stack Developer</p>
 
-        <p class="mt-4">
+        <p class="mt-4 text-gray-600">
           <span class="font-bold text-gray-400 text-sm">OVERVIEW: </span>Self contained web apps deployed as part of trackwires trial or paid service offerings.
         </p>
 
-        <p class="mt-4">
+        <p class="mt-4 text-gray-600">
           <span class="font-bold text-gray-400 text-sm">KEY FEATURES: </span>Complete Customisable Website, Interactive music store / catalog, Dynamic File uploads, Payment processing integrations, Statistics and Records, Modern Frontend, Admin dashboard.
         </p>
 
@@ -92,11 +92,11 @@
 
         <p>Full Stack Developer</p>
 
-        <p class="mt-4">
+        <p class="mt-4 text-gray-600">
           <span class="font-bold text-gray-400 text-sm">OVERVIEW: </span>Web app that consumes themoviedb api to serve movie information under a clean and inviting ui.
         </p>
 
-        <p class="mt-4">
+        <p class="mt-4 text-gray-600">
           <span class="font-bold text-gray-400 text-sm">KEY FEATURES: </span>Home page with popular, upcoming & recommended movies. Show movie page with cast, related movies and watch trailer modal. Search movie page to find a movie.
         </p>
 
@@ -127,11 +127,11 @@
 
         <p>Frontend Developer</p>
 
-        <p class="mt-4">
+        <p class="mt-4 text-gray-600">
           <span class="font-bold text-gray-400 text-sm">OVERVIEW: </span>Addictive browser based game using mouse events. Pass each level without falling into the darkness to complete the game.
         </p>
 
-        <p class="mt-4">
+        <p class="mt-4 text-gray-600">
           <span class="font-bold text-gray-400 text-sm">KEY FEATURES: </span>5 Terrifying levels with increasing difficulty. SPA with Vuex used to store the state of the game. Visitors receive time based medals on completion.
         </p>
 

@@ -12,8 +12,21 @@
       </p>
 
       <p class="mt-4">
-        When I’m not coding you will most likely find me creating music & dj sets, playing valorant, watching movies, exercising or reading.
+        When I’m not coding you will most likely find me creating music & dj sets, watching movies, exercising or reading.
       </p>
+
+      <div class="social-links flex mt-5 items-center">
+
+        <a target="_blank" href="https://github.com/luke-joseph">
+          <img src="@/assets/GitHub-Mark-32px.png" class="w-5 object-contain mr-2" alt="github logo">
+        </a>
+
+        <a target="_blank" href="https://www.linkedin.com/in/luke-joseph-b20413b2/" class="w-6">
+          <img src="@/assets/linkedin.svg" alt="linkedin" >
+        </a>
+
+
+      </div>
 
     </div>
     <div class="w-full lg:w-1/2 mb-4 lg:mb-0">
