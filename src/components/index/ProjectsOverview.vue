@@ -22,134 +22,44 @@
 
     </div>
 
-      <div v-if="currentSlide === 0" class="flex flex-col w-5/6 lg:w-1/2 w-full mt-4 lg:mt-0 slide-info-height?">
+      <div class="project flex flex-col md:w-1/2 w-5/6 w-full slide-info-height mt-4 lg:mt-0">
 
-        <h4 class="font-semibold text-gray-300 text-lg mb-2">01</h4>
+        <h4 class="font-semibold text-gray-300 text-lg mb-2">{{ '0' + (currentSlide + 1) }}</h4>
 
-        <h3 class="font-bold text-gray-600 mb-1 text-base">TRACKWIRE <span class="font-semibold">- SaaS Web App</span></h3>
+        <h3 class="font-bold text-gray-600 mb-1 text-base">{{ projects[currentSlide].heading }} <span class="font-semibold">{{ projects[currentSlide].headingSupport }}</span></h3>
 
-        <p>Founder / Full Stack Developer</p>
+        <p>{{ projects[currentSlide].role }}</p>
 
         <p class="mt-4 text-gray-600">
-          <span class="font-bold text-gray-400 text-sm">OVERVIEW: </span>SaaS web app for music producers to monetize their music effortlessly. Within minutes of signing up a user can have their own website with a built-in store.
+          <span class="font-bold text-gray-400 text-sm">OVERVIEW: </span>
+          {{ projects[currentSlide].overview }}
         </p>
 
         <p class="mt-4 text-gray-600">
-          <span class="font-bold text-gray-400 text-sm">KEY FEATURES: </span>Automated web app deployments, free trials, payment processing, emails based on user actions, Modern Frontend, User dashboard, marketing product pages, blog + more.
-        </p>
-
-        <div class="tech-used flex mt-4">
-          <img src="@/assets/php-logo-basic.svg" class="w-8 object-contain mr-2" alt="php logo">
-          <img src="@/assets/laravel-logo.png" class="w-6 object-contain bg-white mr-3" alt="laravel logo">
-          <img src="@/assets/vue-logo.png" class="w-5 object-contain mr-2" alt="vue logo">
-          <img src="@/assets/tailwindcss-logo.jpg" class="w-7 object-contain" alt="tailwind logo">
-        </div>
-
-        <div class="flex">
-          <a target="_blank" href="https://trackwire.io/features" class="self-start">
-            <button type="button" class="border border-gray-600 px-6 py-2 mt-6 rounded">WEBSITE</button>
-          </a>
-        </div>
-
-      </div>
-
-      <div v-if="currentSlide === 1" class="flex flex-col md:w-1/2 w-5/6 w-full slide-info-height">
-
-        <h4 class="font-semibold text-gray-300 text-lg mb-2">02</h4>
-
-        <h3 class="font-bold text-gray-600 mb-1 text-base">SATELLITES <span class="font-semibold">- Customisable Web App & Store</span></h3>
-
-        <p>Full Stack Developer</p>
-
-        <p class="mt-4 text-gray-600">
-          <span class="font-bold text-gray-400 text-sm">OVERVIEW: </span>Self contained web apps deployed as part of trackwires trial or paid service offerings.
-        </p>
-
-        <p class="mt-4 text-gray-600">
-          <span class="font-bold text-gray-400 text-sm">KEY FEATURES: </span>Complete Customisable Website, Interactive music store / catalog, Dynamic File uploads, Payment processing integrations, Statistics and Records, Modern Frontend, Admin dashboard.
+          <span class="font-bold text-gray-400 text-sm">KEY FEATURES: </span>
+          {{ projects[currentSlide].keyFeatures }}
         </p>
 
         <div class="tech-used flex mt-4">
-          <img src="@/assets/php-logo-basic.svg" class="w-8 object-contain mr-2" alt="php logo">
-          <img src="@/assets/laravel-logo.png" class="w-6 object-contain bg-white mr-3" alt="laravel logo">
-          <img src="@/assets/vue-logo.png" class="w-5 object-contain mr-2" alt="vue logo">
-          <img src="@/assets/tailwindcss-logo.jpg" class="w-7 object-contain" alt="tailwind logo">
+
+          <img v-for="(logo, index) in projects[currentSlide].logos" :src="logo.src" :key="index"
+          :alt="logo.name" :class="logo.additionalClasses" class="object-contain">
+
         </div>
 
         <div class="flex">
-          <a target="_blank" href="https://illuzual.com/beat-store" class="self-start">
-            <button type="button" class="border border-gray-600 px-6 py-2 mt-6 rounded">WEBSITE</button>
-          </a>
-        </div>
 
-      </div>
+          <a v-for="(button, index) in projects[currentSlide].buttons" :key="index" target="_blank"
+          :href="button.url" class="self-start">
 
-      <div v-if="currentSlide === 2" class="flex flex-col md:w-1/2 w-5/6 w-full slide-info-height">
+            <button type="button" :class="button.additionalClasses"
+            class="border border-gray-600 px-6 py-2 mt-6 rounded">
+            {{ button.name }}
+            </button>
 
-        <h4 class="font-semibold text-gray-300 text-lg mb-2">03</h4>
-
-        <h3 class="font-bold text-gray-600 mb-1 text-base">MOVIES DB <span class="font-semibold">- Movies Aggregator & API integration</span></h3>
-
-        <p>Full Stack Developer</p>
-
-        <p class="mt-4 text-gray-600">
-          <span class="font-bold text-gray-400 text-sm">OVERVIEW: </span>Web app that consumes themoviedb api to serve movie information under a clean and inviting ui.
-        </p>
-
-        <p class="mt-4 text-gray-600">
-          <span class="font-bold text-gray-400 text-sm">KEY FEATURES: </span>Home page with popular, upcoming & recommended movies. Show movie page with cast, related movies and watch trailer modal. Search movie page to find a movie.
-        </p>
-
-        <div class="tech-used flex mt-4">
-          <img src="@/assets/php-logo-basic.svg" class="w-8 object-contain mr-2" alt="php logo">
-          <img src="@/assets/laravel-logo.png" class="w-6 object-contain bg-white mr-3" alt="laravel logo">
-          <img src="@/assets/vue-logo.png" class="w-5 object-contain mr-2" alt="vue logo">
-          <img src="@/assets/tailwindcss-logo.jpg" class="w-7 object-contain" alt="tailwind logo">
-        </div>
-
-        <div class="flex">
-          <a target="_blank" href="https://moviesdb.lukejoseph.dev" class="self-start">
-            <button type="button" class="border border-gray-600 px-6 py-2 mt-6 rounded">WEBSITE</button>
           </a>
 
-          <a target="_blank" href="https://github.com/luke-joseph/movies-library" class="self-start">
-            <button type="button" class="border border-gray-600 px-6 py-2 mt-6 rounded ml-3">GITHUB</button>
-          </a>
         </div>
-
-      </div>
-
-      <div v-if="currentSlide === 3" class="flex flex-col md:w-1/2 w-5/6 w-full slide-info-height">
-
-        <h4 class="font-semibold text-gray-300 text-lg mb-2">04</h4>
-
-        <h3 class="font-bold text-gray-600 mb-1 text-base">SCARY MAZE <span class="font-semibold">- Browser Game</span></h3>
-
-        <p>Frontend Developer</p>
-
-        <p class="mt-4 text-gray-600">
-          <span class="font-bold text-gray-400 text-sm">OVERVIEW: </span>Addictive browser based game using mouse events. Pass each level without falling into the darkness to complete the game.
-        </p>
-
-        <p class="mt-4 text-gray-600">
-          <span class="font-bold text-gray-400 text-sm">KEY FEATURES: </span>5 Terrifying levels with increasing difficulty. SPA with Vuex used to store the state of the game. Visitors receive time based medals on completion.
-        </p>
-
-        <div class="tech-used flex mt-4">
-          <img src="@/assets/vue-logo.png" class="w-5 object-contain mr-2" alt="vue logo">
-          <img src="@/assets/tailwindcss-logo.jpg" class="w-7 object-contain" alt="tailwind logo">
-        </div>
-
-        <div class="flex">
-          <a target="_blank" href="https://scarymaze.lukejoseph.dev" class="self-start">
-            <button type="button" class="border border-gray-600 px-6 py-2 mt-6 rounded">WEBSITE</button>
-          </a>
-
-          <a target="_blank" href="https://github.com/luke-joseph/maze" class="self-start">
-            <button type="button" class="border border-gray-600 px-6 py-2 mt-6 rounded ml-3">GITHUB</button>
-          </a>
-        </div>
-
 
       </div>
 
@@ -202,13 +112,16 @@
 </template>
 
 <script>
+import {ProjectsData} from '@/data/ProjectsData.js';
+
 /*
-* currentSlide is synced w/ the swiper.realIndex for supporting text
+* currentSlide is synced w/ the swiper.realIndex for supporting text & nav
 */
 export default {
   name: 'ProjectsOverview',
   data() {
    return {
+     projects: ProjectsData,
      currentSlide: 0,
      amountOfSlides: 4,
      swiperOption: {
