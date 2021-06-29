@@ -5,9 +5,9 @@
     </div>
     <footer class="h-12 w-full bg-gray-100">
 
-      <div class="container mx-auto flex h-full">
+      <div class="container mx-auto flex w-full h-full">
 
-        <p class="my-auto pl-12 text-gray-400">copyright {{ year }}</p>
+        <p class="my-auto mx-auto xl:w-2/3 text-gray-400 text-sm">copyright {{ year }}</p>
 
       </div>
 
