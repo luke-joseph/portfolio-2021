@@ -3,15 +3,15 @@
     <div class="w-full lg:w-1/2">
       <h3 class="font-semibold text-gray-500 text-lg lg:text-base">ABOUT ME</h3>
 
-      <p class="mt-4">
+      <p class="mt-4 text-gray-600">
         Born and raised in the UK, I have always had a great love for music, computers and technology. Berlin naturally attracted me due to being equal parts creativity and technology.
       </p>
 
-      <p class="mt-4">
+      <p class="mt-4 text-gray-600">
         Professionally I use cutting edge technology to provide solutions & create frictionless experiences. I enjoy working in Berlin with many different types of businesses and bringing ideas to digital fruition.
       </p>
 
-      <p class="mt-4">
+      <p class="mt-4 text-gray-600">
         When I’m not coding you will most likely find me creating music & dj sets, watching movies, exercising or reading.
       </p>
 

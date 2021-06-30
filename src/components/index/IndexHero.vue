@@ -22,22 +22,22 @@
 
             <div class="flex flex-col h-full text-gray-300 hover:text-gray-700">
               <img src="@/assets/php-logo-basic.svg" class="w-20 h-16 mx-auto object-contain" alt="php logo">
-              <p class="text-base font-semibold">PHP</p>
+              <p class="text-base font-semibold tracking-wider">PHP</p>
             </div>
 
             <div class="flex flex-col h-full text-gray-300 hover:text-gray-700">
               <img src="@/assets/laravel-logo.png" class="w-16 h-16 mx-auto object-contain bg-white" alt="laravel logo">
-              <p class="text-base font-semibold">Laravel</p>
+              <p class="text-base font-semibold tracking-wider">Laravel</p>
             </div>
 
             <div class="flex flex-col h-full text-gray-300 hover:text-gray-700">
               <img src="@/assets/vue-logo.png" class="w-12 h-16 mx-auto object-contain" alt="vue logo">
-              <p class="text-base font-semibold">Vue</p>
+              <p class="text-base font-semibold tracking-wider">Vue</p>
             </div>
 
             <div class="flex flex-col h-full text-gray-300 hover:text-gray-700">
               <img src="@/assets/tailwindcss-logo.jpg" class="w-16 h-16 mx-auto object-contain" alt="tailwind logo">
-              <p class="text-base font-semibold">Tailwind</p>
+              <p class="text-base font-semibold tracking-wider">Tailwind</p>
             </div>
 
           </div>

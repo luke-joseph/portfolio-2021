@@ -15,21 +15,21 @@
 
           <div class="" v-if="fullyAvailable">
 
-            <h3 class="flex items-center mb-6 font-semibold text-green-500">
+            <h3 class="flex items-center mb-6 font-semibold text-green-500 text-base">
 
               <span class="h-3 w-3 bg-green-500 rounded-full mr-2"></span>
 
-              I'M CURRENTLY AVAILABLE FOR PROJECTS
+              I'm currently available for new projects
 
             </h3>
 
-            <p class="w-5/6 mb-3">
+            <p class="w-5/6 mb-3 text-gray-600">
 
               Please enquire if your would like me to be a part of your next project.
 
             </p>
 
-            <p class="">
+            <p class="text-gray-600">
 
               Let's build something amazing.
 
@@ -43,7 +43,7 @@
 
               <span class="h-3 w-3 bg-yellow-500 rounded-full mr-2"></span>
 
-              I'M PARTIALLY AVAILABLE FOR PROJECTS
+              I'm partially available for new projects
 
             </h3>
 
@@ -61,7 +61,7 @@
 
               <span class="h-3 w-3 bg-red-500 rounded-full mr-2"></span>
 
-              I'M NOT CURRENTLY AVAILABLE FOR PROJECTS
+              I'm not currently available for new projects
 
             </h3>
 
@@ -90,18 +90,18 @@
             </svg>
           </a>
 
-          <a href="mailto:hello@lukejoseph.dev" class="ml-1 hover:underline">send an email</a>
+          <a href="mailto:hello@lukejoseph.dev" class="ml-1 hover:underline text-gray-600">Send me an email</a>
 
         </div>
 
         <div class="flex items-center">
 
           <a href="https://www.linkedin.com/in/luke-joseph-b20413b2/" class="w-5 h-5 mt-1">
-            <img src="@/assets/linkedin.svg" alt="linkedin" >
+            <img src="@/assets/linkedin.svg" alt="LinkedIn logo" >
           </a>
 
-          <a target="_blank" href="https://www.linkedin.com/in/luke-joseph-b20413b2/" class="ml-1 hover:underline">
-            message on linkedin
+          <a target="_blank" href="https://www.linkedin.com/in/luke-joseph-b20413b2/" class="ml-1 hover:underline text-gray-600">
+            Message me on LinkedIn
           </a>
 
         </div>
