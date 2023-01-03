@@ -118,7 +118,7 @@ export default {
   name: 'ContactMe',
   data(){
     return{
-      available: 3,
+      available: 1,
     }
   },
   computed:{
