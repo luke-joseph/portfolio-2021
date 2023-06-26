@@ -1,10 +1,10 @@
 export const ProjectsData = [
   {
-    heading: 'TRACKWIRE',
+    heading: 'TRACKWIRE.IO',
     headingSupport: ' - SaaS Web App',
     role: 'Founder / Full Stack Developer',
-    overview: 'SaaS web app for music producers to monetize their music effortlessly. Within minutes of signing up a user can have their own website with a built-in store.',
-    keyFeatures: 'Automated web app deployments, free trials, payment processing, emails based on user actions, Modern Frontend, User dashboard, marketing product pages, blog + more.',
+    overview: 'SaaS Account Handling & Marketing Web App: Empowering Music Producers with Instant Personalized Websites and E-Commerce Functionality Upon Signup.',
+    keyFeatures: 'Streamlined Deployments, Free Trials, Seamless Payment Processing, Automated Action Based Emails, Intuitive User Dashboard, Captivating Marketing Product Pages, Dynamic Blog and more.',
     logos: [
         {
           name: 'php',
@@ -37,11 +37,11 @@ export const ProjectsData = [
     imageUrl: '/img/trackwireio-pj-image.jpg'
   },
   {
-    heading: 'SATELLITES',
-    headingSupport: ' - Customisable Web App & Store',
+    heading: '{TENANT}.TRACKWIRE.IO',
+    headingSupport: ' - Multi-Tenant Web App',
     role: 'Full Stack Developer',
-    overview: 'Self contained web apps deployed as part of trackwires trial or paid service offerings.',
-    keyFeatures: 'Complete Customisable Website, Interactive music store / catalog, Dynamic File uploads, Payment processing integrations, Statistics and Records, Modern Frontend, Admin dashboard.',
+    overview: 'Cutting-Edge Multi-Tenant Web App with Advanced Features and Technical Assets.',
+    keyFeatures: 'Versatile and Feature-Rich: Fully Customizable Website, Interactive Music Store/Catalog, Dynamic File Uploads, Payment Processing Integrations, Comprehensive Statistics and Records, Modern Frontend Design, Admin Dashboard and much more.',
     logos: [
         {
           name: 'php',
@@ -77,8 +77,8 @@ export const ProjectsData = [
     heading: 'MOVIES DB',
     headingSupport: ' - Movies Aggregator & API integration',
     role: 'Full Stack Developer',
-    overview: 'Web app that consumes themoviedb api to serve movie information under a clean and inviting ui.',
-    keyFeatures: 'Home page with popular, upcoming & recommended movies. Show movie page with cast, related movies and watch trailer modal. Search movie page to find a movie.',
+    overview: 'Sleek and User-Friendly Web App: Harnessing TheMovieDB API to Deliver Engaging Movie Information with a Clean and Inviting UI',
+    keyFeatures: 'Explore Popular, Upcoming, and Recommended Movies on the Home Page. Detailed Movie Pages with Cast Information, Related Movies, and a "Watch Trailer" Modal. Find Movies with the Search Functionality.',
     logos: [
         {
           name: 'php',
@@ -119,8 +119,8 @@ export const ProjectsData = [
     heading: 'SCARY MAZE',
     headingSupport: ' - Browser Game',
     role: 'Frontend Developer',
-    overview: 'Addictive browser based game using mouse events. Pass each level without falling into the darkness to complete the game.',
-    keyFeatures: '5 Terrifying levels with increasing difficulty. SPA with Vuex used to store the state of the game. Visitors receive time based medals on completion.',
+    overview: 'Immersive Browser-Based Game: Experience Addictive Gameplay Utilizing Mouse Events. Navigate Each Level Safely, Avoiding the Darkness to Achieve Game Completion.',
+    keyFeatures: 'Intense and Challenging Gameplay: Conquer 5 Terrifying Levels of Increasing Difficulty. Single Page Application (SPA) Leveraging Vuex to Manage Game State. Earn Time-Based Medals upon Completion for Visitors.',
     logos: [
         {
           name: 'vue',

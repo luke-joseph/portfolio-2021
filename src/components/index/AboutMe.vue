@@ -4,15 +4,15 @@
       <h3 class="font-semibold text-gray-500 text-lg lg:text-base">ABOUT ME</h3>
 
       <p class="mt-4 text-gray-600">
-        Born and raised in the UK, I have always had a great love for music, computers and technology. Berlin naturally attracted me due to being equal parts creativity and technology.
+        Born and raised in the UK, my passion for music, computers and technology has continually shaped my journey. The vibrant blend of creativity and tech in Berlin naturally drew me in.
       </p>
 
       <p class="mt-4 text-gray-600">
-        Professionally I use cutting edge technology to provide solutions & create frictionless experiences. I enjoy working in Berlin with many different types of businesses and bringing ideas to digital fruition.
+        Professionally, I thrive on leveraging cutting-edge technology to craft seamless solutions and exceptional user experiences. Working with diverse businesses in Berlin and throughout Germany, I relish the opportunity to transform ideas into digital reality.
       </p>
 
       <p class="mt-4 text-gray-600">
-        When I’m not coding you will most likely find me creating music & dj sets, watching movies, exercising or reading.
+        Outside of coding, you'll often find me immersed in music creation, indulging in series/movies, staying active through exercise, or exploring captivating literature.
       </p>
 
       <div class="social-links flex mt-5 items-center">
