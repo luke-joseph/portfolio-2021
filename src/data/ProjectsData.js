@@ -67,7 +67,7 @@ export const ProjectsData = [
       buttons: [
         {
           name: 'WEBSITE',
-          url: 'https://illuzual.com/beat-store',
+          url: 'https://illuzual.trackwire.io/beat-store',
           additionalClasses: '',
         }
       ],
